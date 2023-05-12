@@ -51,7 +51,6 @@ source $bp_dir/bin/util/blackfire.sh
 unset GIT_DIR
 
 cd $build_dir
-status "$COMPOSER"
 ls -ltr
 
 export_env_dir "$env_dir" '^COMPOSER$'
